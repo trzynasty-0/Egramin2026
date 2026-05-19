@@ -29,26 +29,30 @@
         android:text="Które schronisko?" />
 
     <RadioGroup
+        android:id="@+id/radioGroup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" >
 
         <RadioButton
-            android:id="@+id/radioButton"
+            android:id="@+id/radioA"
             android:layout_width="match_parent"
             android:textColor="@color/white"
+            android:hint="A"
             android:layout_height="wrap_content"
             android:text="Na Rysiance" />
 
         <RadioButton
-            android:id="@+id/radioButton2"
+            android:id="@+id/radioB"
             android:layout_width="match_parent"
             android:textColor="@color/white"
+            android:hint="B"
             android:layout_height="wrap_content"
             android:text="Na Wielkiej Raczy" />
 
         <RadioButton
-            android:id="@+id/radioButton3"
+            android:id="@+id/radioC"
             android:layout_width="match_parent"
+            android:hint="C"
             android:textColor="@color/white"
             android:layout_height="wrap_content"
             android:text="Na Wiejkiej Rycerzowej" />
